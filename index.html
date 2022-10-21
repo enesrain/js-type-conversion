@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/5a44f94317.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    
+ <div class="container p-5 mt-5 border border-primary" id="result1"></div>
+ <div class="container p-5 mt-5 border border-success" id="result2"></div>
+
+
+
+
+
+
+    <script>
+        
+        let a = 5;
+         let b;
+         let c = true;
+         let d = [8];
+         let e = ["9"];
+         let f = [];
+
+        //  String dönüştürme-------------------------------------------
+
+document.getElementById('result1').innerHTML=
+
+        a + " " + typeof String(a) + "<br>" + 
+        b + " " + typeof String(b) + "<br>" + 
+        c + " " + typeof String(c) + "<br>" + 
+        d + " " + typeof d.toString() + "<br>" + 
+        e + " " + typeof e.toString() + "<br>" + 
+        f + " " + typeof f.toString() + "<br>";
+
+
+
+        let x="5";
+         let y;
+         let z = true;
+         let w = false;
+         let m = ["12"];
+         let n = [20];
+         let l = "yirmi";
+         let g = [];
+
+
+        // Number dönüştürme---------------------------------------------
+
+        document.getElementById('result2').innerHTML=
+
+        x + " " + typeof Number(x) + "<br>" + 
+        y + " " + typeof Number(y) + "<br>" +
+        z + " " + typeof Number(z) + "<br>" +
+        w + " " + typeof Number(w) + "<br>" + 
+        m + " " + typeof Number(m) + "<br>" + 
+        n + " " + typeof Number(n) + "<br>";
+
+
+
+
+</script>
+  </body>
+</html>
+
+
+
